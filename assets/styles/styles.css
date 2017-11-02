@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'gill-sans-bold';
+  src: url("../fonts/gill-sans-bold.ttf");
+  src: url("../fonts/gill-sans-bold.woff");
+  src: url("../fonts/gill-sans-bold.svg");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'gill-sans-semibold';
+  src: url("../fonts/gill-sans-semibold.otf");
+  src: url("../fonts/gill-sans-semibold.woff");
+  src: url("../fonts/gill-sans-semibold.svg");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'gill-sans';
+  src: url("../fonts/gill-sans.ttf");
+  src: url("../fonts/gill-sans.woff");
+  src: url("../fonts/gill-sans.svg");
+  font-style: normal;
+  font-weight: normal;
+}

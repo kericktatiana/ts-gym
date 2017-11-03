@@ -4,6 +4,7 @@
 	flex-direction(column)
 	height 700px
 	justify-content(center)
+	position relative
 	width 100%
 	
 	// background $orange20
@@ -15,12 +16,12 @@
 	// background linear-gradient(to bottom, $orange20 0%, $grey20 100%)
 	
 	background $grey20
-	background -moz-linear-gradient(top, $grey20 0%, $orange20 200%)
-	background -webkit-gradient(left top, left bottom, color-stop(0%, $grey20), color-stop(200%, $orange20))
-	background -webkit-linear-gradient(top, $grey20 0%, $orange20 200%)
-	background -o-linear-gradient(top, $grey20 0%, $orange20 200%)
-	background -ms-linear-gradient(top, $grey20 0%, $orange20 200%)
-	background linear-gradient(to bottom, $grey20 0%, $orange20 200%)
+	background -moz-linear-gradient(top, $grey20 0%, $orange10 200%)
+	background -webkit-gradient(left top, left bottom, color-stop(0%, $grey20), color-stop(200%, $orange10))
+	background -webkit-linear-gradient(top, $grey20 0%, $orange10 200%)
+	background -o-linear-gradient(top, $grey20 0%, $orange10 200%)
+	background -ms-linear-gradient(top, $grey20 0%, $orange10 200%)
+	background linear-gradient(to bottom, $grey20 0%, $orange10 200%)
 	
 .header__logo
 	margin-bottom 40px
@@ -36,7 +37,7 @@
 	left 50%
 	opacity 0 
 	position absolute
-	top 90%
+	top 95%
 	transform-origin 50% 50%
 	transform translate3d(-50%, -50%, 0)
 
@@ -58,12 +59,11 @@
 	transform-origin top right
 	
 
-
 // arrow animation
 @keyframes arrow-movement {
   0% {
     opacity: 0
-    top: 85%
+    top: 92%
   }
   70% {
     opacity: 1
@@ -73,3 +73,44 @@
   }
 }
 
+
+
+.nav__wrapper
+	background-color $grey20
+	flexbox()
+	flex-direction(row)
+	justify-content(center)
+	height 60px
+	
+.nav--left
+	align-items(center)
+	flexbox()
+	justify-content(flex-start)
+	width 50%
+.nav--right
+	align-items(center)
+	flexbox()
+	justify-content(flex-end)
+	width 50%
+	
+.nav__logo--link:hover
+	cursor pointer
+.nav__logo
+	height 45px
+	margin-left 40px
+	width auto
+	
+
+.nav__menu
+	flexbox()
+	flex-direction(row)
+	margin-right 20px
+	
+.nav__menu-item
+	margin 0 20px
+.nav__manu-item--link
+	color $orange20
+	font 20px $semibold
+	text-transform uppercase
+	&:hover
+		color $orange10

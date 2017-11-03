@@ -18,6 +18,16 @@ a {
   cursor: pointer;
   text-decoration: none;
 }
+header {
+  height: 700px;
+}
+.nav__wrapper {
+  background: #f47e39;
+  height: 50px;
+}
+.temp {
+  height: 900px;
+}
 @font-face {
   font-family: 'gill-sans-bold';
   src: url("../fonts/gill-sans-bold.ttf");

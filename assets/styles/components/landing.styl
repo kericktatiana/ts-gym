@@ -1,4 +1,4 @@
-.header__wrapper
+.landing__wrapper
 	align-items(center)
 	flexbox()
 	flex-direction(column)
@@ -23,16 +23,16 @@
 	background -ms-linear-gradient(top, $grey20 0%, $orange10 200%)
 	background linear-gradient(to bottom, $grey20 0%, $orange10 200%)
 	
-.header__logo
+.landing__logo
 	margin-bottom 40px
 	width 43%
 	
-.header__text
+.landing__text
 	font 30px $bold
 	text-transform uppercase
 	
 
-.header__arrow
+.landing__arrow
 	animation arrow-movement 2s ease-in-out infinite
 	left 50%
 	opacity 0 
@@ -41,8 +41,8 @@
 	transform-origin 50% 50%
 	transform translate3d(-50%, -50%, 0)
 
-.header__arrow:before
-.header__arrow:after
+.landing__arrow:before
+.landing__arrow:after
 	background $white
 	content ''
 	display block
@@ -51,10 +51,10 @@
 	position absolute
 	top 0
 	width 30px
-.header__arrow:before
+.landing__arrow:before
 	transform: rotate(45deg) translateX(-23%)
 	transform-origin top left
-.header__arrow:after
+.landing__arrow:after
 	transform: rotate(-45deg) translateX(23%)
 	transform-origin top right
 	
@@ -74,43 +74,3 @@
 }
 
 
-
-.nav__wrapper
-	background-color $grey20
-	flexbox()
-	flex-direction(row)
-	justify-content(center)
-	height 60px
-	
-.nav--left
-	align-items(center)
-	flexbox()
-	justify-content(flex-start)
-	width 50%
-.nav--right
-	align-items(center)
-	flexbox()
-	justify-content(flex-end)
-	width 50%
-	
-.nav__logo--link:hover
-	cursor pointer
-.nav__logo
-	height 45px
-	margin-left 40px
-	width auto
-	
-
-.nav__menu
-	flexbox()
-	flex-direction(row)
-	margin-right 20px
-	
-.nav__menu-item
-	margin 0 20px
-.nav__manu-item--link
-	color $orange20
-	font 20px $semibold
-	text-transform uppercase
-	&:hover
-		color $orange10

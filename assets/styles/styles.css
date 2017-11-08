@@ -60,13 +60,12 @@ a {
   justify-content: center;
   position: relative;
   width: 100%;
-  background: #292929;
-  background: -moz-linear-gradient(top, #292929 0%, #f47e39 200%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, #292929), color-stop(200%, #f47e39));
-  background: -webkit-linear-gradient(top, #292929 0%, #f47e39 200%);
-  background: -o-linear-gradient(top, #292929 0%, #f47e39 200%);
-  background: -ms-linear-gradient(top, #292929 0%, #f47e39 200%);
-  background: linear-gradient(to bottom, #292929 0%, #f47e39 200%);
+  background: #1a1a1a;
+  background: -moz-linear-gradient(top, #5a6265 0%, #1a1a1a 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #5a6265), color-stop(100%, #1a1a1a));
+  background: -webkit-linear-gradient(top, #5a6265 0%, #1a1a1a 100%);
+  background: -ms-linear-gradient(top, #5a6265 0%, #1a1a1a 100%);
+  background: linear-gradient(to bottom, #5a6265 0%, #1a1a1a 100%);
 }
 .landing__logo {
   margin-bottom: 40px;
@@ -153,7 +152,7 @@ a {
   }
 }
 .nav__wrapper {
-  background-color: #292929;
+  background-color: #1a1a1a;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -238,12 +237,127 @@ a {
   margin: 0 20px;
 }
 .nav__manu-item--link {
-  color: #d04d01;
+  color: #bf6402;
   font: 20px 'gill-sans-semibold', sans-serif;
   text-transform: uppercase;
 }
 .nav__manu-item--link:hover {
-  color: #f47e39;
+  color: #ec8703;
+}
+.home__wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+.header__wrapper {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  background: rgba(0,0,0,0.5);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+  padding: 100px 0;
+  position: relative;
+  width: 100%;
+}
+.header__background-img {
+  background: url("../images/filler-img/header.jpeg") center center;
+  background-size: 100%;
+  height: 550px;
+  left: 0;
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
+.welcome__text--sm {
+  color: #fff;
+  font: 70px 'gill-sans-bold', sans-serif;
+  letter-spacing: 0.1em;
+  line-height: 60px;
+  text-transform: uppercase;
+  -webkit-text-stroke-width: 2px;
+  -moz-text-stroke-width: 2px;
+  -ms-text-stroke-width: 2px;
+  text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000;
+  -moz-text-stroke-color: #000;
+  -ms-text-stroke-color: #000;
+  text-stroke-color: #000;
+}
+.welcome__text--lg {
+  color: #fff;
+  font: 180px 'gill-sans-bold', sans-serif;
+  line-height: 170px;
+  letter-spacing: 0.032em;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  -webkit-text-stroke-width: 2px;
+  -moz-text-stroke-width: 2px;
+  -ms-text-stroke-width: 2px;
+  text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000;
+  -moz-text-stroke-color: #000;
+  -ms-text-stroke-color: #000;
+  text-stroke-color: #000;
+}
+.welcome__intro-wrapper {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  background: #1a1a1a;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+  padding: 10px 0;
+  width: 100%;
+}
+.welcome__intro {
+  color: #fff;
+  font: 16px 'gill-sans-semibold', sans-serif;
+  letter-spacing: 0.023em;
+  text-align: center;
+  width: 60%;
 }
 @font-face {
   font-family: 'gill-sans-bold';
